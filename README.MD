@@ -8,3 +8,6 @@ Semester Long Design Project for NYU Tandon EG-1003
 ## Building
 ### PlatformIO (Arduino)
 Enter the platformio/ subdirectory and open it in your PlatformIO IDE of choice, or build it using the PlatformIO CLI.
+
+## Wiring
+![Wiring Diagram](platformio/fritzing-schematic_bb.png)
