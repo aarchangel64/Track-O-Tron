@@ -506,8 +506,9 @@
         "microvia_drill": 0.1,
         "name": "SPI Bus",
         "nets": [
-          "/SPI_MOSI",
-          "/SPI_SCK",
+          "/MISO",
+          "/MOSI",
+          "/SCK",
           "/{SPI_BUS}"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -691,7 +692,7 @@
   },
   "sheets": [
     [
-      "d9149772-46e6-492e-9acb-0449e85484e9",
+      "9b493efb-d925-40be-b8ba-5a2975be64ef",
       ""
     ]
   ],
