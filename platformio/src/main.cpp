@@ -17,8 +17,11 @@ using Vec3 = LSM::lsm9ds1Vector_t;
 // Construct LSM objects for hardware SPI.
 // CS pins (XGCS, MCS) are taken as parameters
 LSM imus[] = {
-    {1, 2}, // e.g. forearm_r
-    {3, 4}  // forearm_l
+    {28, 27}, // IMU 0, which could be e.g. forearm_r
+    {30, 29}, // IMU 1, which could be e.g. forearm_l
+    {32, 31}, // IMU 2
+    {34, 33}, // IMU 3
+    {36, 35}  // IMU 4
 };
 
 struct Data {
