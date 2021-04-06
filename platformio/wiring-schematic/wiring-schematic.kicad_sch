@@ -6,6 +6,7 @@
     (title "Track-O-Tron 5000")
     (date "2021-04-05")
     (rev "0.1.1")
+    (company "EZ-TRAK INC.")
     (comment 1 "Schematic for IMU sensor wiring to Arduino Mega.")
     (comment 2 "Five IMUs are shown here. ")
     (comment 3 "Additonal IMUs can be wired up in the same manner.")
