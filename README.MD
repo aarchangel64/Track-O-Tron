@@ -12,7 +12,7 @@ This project was created as a Semester Long Design Project for NYU Tandon's EG-1
 Enter the platformio/ subdirectory and open it in your PlatformIO IDE of choice, or build it using the PlatformIO CLI.
 
 ## Circuit Wiring
-![Wiring Diagram](platformio/wiring-schematic/wiring-schematic.svg)
+![Wiring Diagram](wiring-schematic/wiring-schematic.svg)
 
 Connect each IMU's SPI pins to the hardware SPI pins on your microcontroller (pins 50, 51, and 52 for the Arduino Mega pictured above).
 All IMUs share a single SPI bus, so all MOSI pins from every IMU will be connected together, and likewise for all MISO pins.
