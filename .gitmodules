@@ -1,3 +1,6 @@
 [submodule "pc/lib/serial"]
 	path = pc/lib/serial
 	url = https://github.com/blabdouze/serial.git
+[submodule "pc/include/attitude_estimator"]
+	path = pc/include/attitude_estimator
+	url = https://github.com/AIS-Bonn/attitude_estimator.git

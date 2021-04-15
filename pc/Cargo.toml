@@ -1,0 +1,15 @@
+[package]
+name = "pc"
+version = "0.1.0"
+authors = ["Shrey Pasricha <shrey.pasricha@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0.42"
+mio = "0.7.11"
+mio-serial = { git = "https://github.com/berkowski/mio-serial", branch = "v4.0_serialstream" }
+
+[build-dependencies]
+cxx-build = "1.0.42"
